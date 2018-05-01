@@ -3,7 +3,7 @@
 <div class="card">
  <input type="checkbox" name=""/>
  <h2><%= @todo.description %></h2>
- <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> Pomodoros</span>
+ <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> Goals</span>
  <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
  <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
  <a href="/" class="simple-link">Go back...</a>
