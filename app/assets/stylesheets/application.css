@@ -14,16 +14,19 @@
  *= require_self
  */
 ul{
-  text-decoration: none;
   list-style:none;
   font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color:#610e0e;
 }
 li{
   margin-bottom: 10px;
   padding: 5px;
 }
 li:hover{
-  background-color: #E1F5FE;
+  background-color: #a9a9a9;
   border-radius: 3px;
 }
 span{
@@ -31,7 +34,8 @@ span{
   padding: 5px 10px 5px 10px;
 }
 #new-todo-block{
-  width: 60%;
+  width: 40%;
+  text-align:center;
   margin: 20px auto 0px auto;
   font-size:18px;
 }
