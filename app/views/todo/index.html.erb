@@ -1,15 +1,15 @@
 <h1>2017-18 Varsity Goal Sheet</h1>
+<div id="new-todo-block">
+<a href="/todo/new" class="button add-new-todo-button" id="add-new-todo-button">Add a player</a>
+</div>
 
 <ul class="card">
 <% @todos.each do |todo| %>
   <li>
     <input type="checkbox" name=""/>
    <a href="/todo/show/<%= todo.id %>"><%= todo.description %></a>
-    <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %> Goals</span>
+    <h5 class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %> Goals</h5>
   </li>
 <% end %>
 </ul>
 
-<div id="new-todo-block">
-<a href="/todo/new" class="button add-new-todo-button" id="add-new-todo-button">Add a player</a>
-</div>
